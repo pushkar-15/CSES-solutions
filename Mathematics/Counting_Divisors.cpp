@@ -13,17 +13,13 @@ void solve(){
     cin >> x;
 
     int count = 0;
-
     for (int i = 1; i * i <= x; i++) {
-        if (x % i == 0) {
-            count += 2;
-        }
+        if (x % i == 0) count += 2;
         if(i*i == x) count--;
     }
 
     cout << count << endl;
 }
-
 
 int main() {
     int n;
