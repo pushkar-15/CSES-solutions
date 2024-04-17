@@ -17,7 +17,7 @@ int main() {
 
     sort(coins.begin(), coins.end());
 
-    int pref = 0;
+    ll pref = 0;
     for(auto& coin : coins){
         if(coin > pref + 1) break;
         pref += coin;
