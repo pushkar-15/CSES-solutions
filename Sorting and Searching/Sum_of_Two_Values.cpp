@@ -6,7 +6,7 @@ const int MOD = 1e9+7;
 
 /* 
     Two Sum approach 
-    Maintain a hashmap to chck for existing complement
+    Maintain a hashmap to check for existing complement
 */
 
 int main() {
