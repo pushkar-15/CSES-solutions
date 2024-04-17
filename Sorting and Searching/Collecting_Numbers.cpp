@@ -5,6 +5,8 @@ using namespace std;
 const int MOD = 1e9+7;
 
 
+/* if positions are inverted, increase round-trips */
+
 
 int main() {
     int n;
