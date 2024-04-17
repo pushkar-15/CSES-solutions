@@ -5,6 +5,8 @@ using namespace std;
 const int MOD = 1e9+7;
 
 
+/* two pointers */
+
 
 int main() {
     int n, m, k;
