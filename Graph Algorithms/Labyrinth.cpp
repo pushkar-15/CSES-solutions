@@ -5,6 +5,9 @@ using namespace std;
 const int MOD = 1e9+7;
 
 
+/* BFS on grid while keeping track of moves and distances */
+
+
 int main() {
     int n, m; // n rows, m columns
     cin >> n >> m;
