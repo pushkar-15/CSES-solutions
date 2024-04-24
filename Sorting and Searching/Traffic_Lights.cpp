@@ -11,7 +11,7 @@ const int MOD = 1e9+7;
 
 int main() {
     fastio;
-
+    
     int x, n;
     cin >> x >> n;
 
@@ -26,7 +26,7 @@ int main() {
         positions.insert(p);
 
         auto curr = positions.find(p);
-        auto justLarger = positions.upper_bound(p);
+        auto justLarger = next(curr);
         auto justSmaller = prev(curr);
 
         lengths.erase(lengths.find(*justLarger - *justSmaller));
