@@ -19,7 +19,7 @@ int main() {
         graph[b].push_back(a);
     }
 
-    vector<int> prev(n+1,0); // stores path
+    vector<int> prev(n+1,0); // stores previous hops (towards parent)
 
     queue<int> q;
     q.push(1);
